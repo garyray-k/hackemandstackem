@@ -1,7 +1,62 @@
 'use strict';
 /** @type {!Array} */
-var a = ["3...2....1...", "ihiQW", "lajfC", "xxkFB", "yTIHL", "location", "TwzKC", "WkqMp", "length", "AeGTV", "uzDGk", "vbeRI", "<li>THE ONLY WINNING MOVE IS NOT TO PLAY", "DJTcR", "gkhsS", "xPVEl", "html", "click", "span", "uiFqZ", "focus", ".blink", "https://www.youtube.com/watch?v=cQ_b4_lw0Gg", "<li>", "<li>EXCELLENT.", "peoplesometimesmake...mistakes.", "4|2|3|0|1", "<li>YES, THEY DO.", "4|2|1|0|5|3", "center", "ONLY WINNING MOVE IS NOT TO PLAY!", "<li>GLOBAL THERMONUCLEAR WAR INITIATED, HAVE A NICE DAY<br><br>WINNER: NONE", 
-"replace", "hello.", "Ddhlq", "MemYG", "XQsjB", "arqqm", "toggleClass", "blinker", "after", "<li>HOW ARE YOU FEELING TODAY?", "xrBFP", "DaXoU", "toUpperCase", "text", "i'mfine.howareyou?", "ZltQs", "split", "UWESg", "<li>IT'S BEEN A LONG TIME.", "<li>CAN YOU EXPLAIN THE REMOVAL OF YOUR USER ACCOUNT ON JUNE 23RD, 1973?", "MJOYO", "lsyHX", "ELqfN", "SurXj"];
+var a = [
+"3...2....1...",
+"ihiQW",
+"lajfC",
+"xxkFB",
+"yTIHL",
+"location",
+"TwzKC",
+"WkqMp",
+"length",
+"AeGTV",
+"uzDGk",
+"vbeRI",
+"<li>THE ONLY WINNING MOVE IS NOT TO PLAY",
+"DJTcR",
+"gkhsS",
+"xPVEl",
+"html",
+"click",
+"span",
+"uiFqZ",
+"focus",
+".blink",
+"https://www.youtube.com/watch?v=cQ_b4_lw0Gg",
+"<li>",
+"<li>EXCELLENT.",
+"peoplesometimesmake...mistakes.",
+"4|2|3|0|1",
+"<li>YES, THEY DO.",
+"4|2|1|0|5|3",
+"center",
+"ONLY WINNING MOVE IS NOT TO PLAY!",
+"<li>GLOBAL THERMONUCLEAR WAR INITIATED, HAVE A NICE DAY<br><br>WINNER: NONE",
+"replace",
+"hello.",
+"Ddhlq",
+"MemYG",
+"XQsjB",
+"arqqm",
+"toggleClass",
+"blinker",
+"after",
+"<li>HOW ARE YOU FEELING TODAY?",
+"xrBFP",
+"DaXoU",
+"toUpperCase",
+"text",
+"i'mfine.howareyou?",
+"ZltQs",
+"split",
+"UWESg",
+"<li>IT'S BEEN A LONG TIME.",
+"<li>CAN YOU EXPLAIN THE REMOVAL OF YOUR USER ACCOUNT ON JUNE 23RD, 1973?",
+"MJOYO",
+"lsyHX",
+"ELqfN",
+"SurXj"];
 
 
 (function(params, url) {
@@ -11,8 +66,7 @@ var a = ["3...2....1...", "ihiQW", "lajfC", "xxkFB", "yTIHL", "location", "TwzKC
    */
   var fn = function(selected_image) {
     for (; --selected_image;) {
-      params["push"](params["shift"]());
-    }
+      params["push"](params["shift"]()); // shifting the array a around
   };
   /**
    * @return {undefined}
@@ -67,6 +121,7 @@ var a = ["3...2....1...", "ihiQW", "lajfC", "xxkFB", "yTIHL", "location", "TwzKC
         return v ? decodeURIComponent(v[1]) : undefined;
       }
     };
+
     /**
      * @return {?}
      */
@@ -75,11 +130,14 @@ var a = ["3...2....1...", "ihiQW", "lajfC", "xxkFB", "yTIHL", "location", "TwzKC
       var test = new RegExp("\\w+ *\\(\\) *{\\w+ *['|\"].+['|\"];? *}");
       return test["test"](target["removeCookie"]["toString"]());
     };
+
     /** @type {function(): ?} */
     target["updateCookie"] = init;
+
     /** @type {string} */
     var array = "";
-    var C = target["updateCookie"]();
+
+    var C = target["updateCookie"](); // false
     if (!C) {
       target["setCookie"](["*"], "counter", 1);
     } else {
@@ -90,8 +148,11 @@ var a = ["3...2....1...", "ihiQW", "lajfC", "xxkFB", "yTIHL", "location", "TwzKC
       }
     }
   };
-  build();
+
+  build(); // returns 241 then 
+
 })(a, 240);
+
 
 
 /**
@@ -187,7 +248,9 @@ var R = c(this, function() {
     wrap("ind\u0435xOf");
   }
 });
-R();
+
+R(); // jquery
+
 $(b("0x0"))["on"](b("0x1"), function() {
   var menuData = {
     "uiFqZ" : function(saveNotifs, notifications) {
@@ -196,19 +259,21 @@ $(b("0x0"))["on"](b("0x1"), function() {
     "mfWRr" : b("0x2")
   };
   menuData[b("0x3")]($, menuData["mfWRr"])[b("0x4")]();
-});
+}); // onClick jquery
+
 /** @type {number} */
 var g = 0;
 /** @type {number} */
 var h = 0;
+
 $(b("0x2"))["on"]("input", function() {
   var range = {
     "XQsjB" : function(rchisq, k) {
       return rchisq(k);
     },
-    "arqqm" : b("0x5"),
+    "arqqm" : ".blink",
     "TwzKC" : "/0xaf12",
-    "DJTcR" : b("0x6"),
+    "DJTcR": "https://www.youtube.com/watch?v=cQ_b4_lw0Gg",
     "szRRy" : function(saveNotifs, notifications) {
       return saveNotifs(notifications);
     },
@@ -222,26 +287,26 @@ $(b("0x2"))["on"]("input", function() {
     "xrBFP" : function(type, driverId) {
       return type + driverId;
     },
-    "DaXoU" : b("0x7"),
+    "DaXoU" : "<li>",
     "ZltQs" : "5|1|0|4|2|3",
-    "UWESg" : b("0x8"),
-    "cEwwK" : b("0x9"),
+    "UWESg": "<li>EXCELLENT.",
+    "cEwwK": "peoplesometimesmake...mistakes.",
     "AeGTV" : function(url, oldUrl) {
       return url == oldUrl;
     },
-    "MJOYO" : b("0xa"),
-    "lsyHX" : b("0xb"),
+    "MJOYO": "4|2|3|0|1",
+    "lsyHX": "<li>YES, THEY DO.",
     "ELqfN" : "poker",
-    "SurXj" : b("0xc"),
+    "SurXj": "4|2|1|0|5|3",
     "ihiQW" : function(funcCal, w) {
       return funcCal(w);
     },
-    "lajfC" : b("0xd"),
-    "xxkFB" : b("0xe"),
+    "lajfC": "center",
+    "xxkFB": "ONLY WINNING MOVE IS NOT TO PLAY!",
     "yTIHL" : function(require, load, callback) {
       return require(load, callback);
     },
-    "TPmKD" : b("0xf"),
+    "TPmKD": "<li>GLOBAL THERMONUCLEAR WAR INITIATED, HAVE A NICE DAY<br><br>WINNER: NONE",
     "WkqMp" : function(_num1, _num2) {
       return _num1 > _num2;
     },
@@ -255,44 +320,42 @@ $(b("0x2"))["on"]("input", function() {
   var href = range["szRRy"]($, this)["text"]();
   var _element = $(range["eHQca"]);
   var $el = range["GujvX"]($, this);
-  v = href[b("0x10")](/\s/g, "");
+
+  v = href["replace"](/\s/g, ""); // clears whitespace of v
+  
   switch(v["toLowerCase"]()) {
-    case b("0x11"):
-      if (range[b("0x12")](g, 0)) {
-        if (b("0x13") !== b("0x13")) {
-          range[b("0x14")]($, range[b("0x15")])[b("0x16")](b("0x17"));
-        } else {
-          _element[b("0x18")](b("0x19"));
-          _element["after"](range[b("0x1a")](range[b("0x1b")], href[b("0x1c")]()));
-          $el[b("0x1d")]("");
+    case "hello.":
+      if (range["Ddhlq"](g, 0)) {
+        _element["after"]("<li>HOW ARE YOU FEELING TODAY?");
+        _element["after"](range["xrBFP"](range["DaXoU"], href["toUpperCase"]()));
+        $el["text"]("");
           g++;
-        }
       }
       break;
-    case b("0x1e"):
+    case "i'mfine.howareyou?":
       if (g == 1) {
-        var array = range[b("0x1f")][b("0x20")]("|");
+        var array = range["ZltQs"]["split"]("|");
         /** @type {number} */
         var item = 0;
         for (; !![];) {
           switch(array[item++]) {
             case "0":
-              _element[b("0x18")](range[b("0x21")]);
+              _element["after"](range["UWESg"]);
               continue;
             case "1":
-              _element["after"](b("0x22"));
+              _element["after"]("<li>IT'S BEEN A LONG TIME.");
               continue;
             case "2":
-              $el[b("0x1d")]("");
+              $el["text"]("");
               continue;
             case "3":
               g++;
               continue;
             case "4":
-              _element["after"](range[b("0x1a")](range["DaXoU"], href[b("0x1c")]()));
+              _element["after"](range["xrBFP"](range["DaXoU"], href["toUpperCase"]()));
               continue;
             case "5":
-              _element[b("0x18")](b("0x23"));
+              _element["after"]("<li>CAN YOU EXPLAIN THE REMOVAL OF YOUR USER ACCOUNT ON JUNE 23RD, 1973?");
               continue;
           }
           break;
@@ -301,7 +364,7 @@ $(b("0x2"))["on"]("input", function() {
       break;
     case range["cEwwK"]:
       if (range["AeGTV"](g, 2)) {
-        var M = range[b("0x24")][b("0x20")]("|");
+        var M = range["MJOYO"]["split"]("|");
         /** @type {number} */
         var alphabetSize = 0;
         for (; !![];) {
@@ -313,22 +376,22 @@ $(b("0x2"))["on"]("input", function() {
               g++;
               continue;
             case "2":
-              _element[b("0x18")](range[b("0x25")]);
+              _element["after"](range["lsyHX"]);
               continue;
             case "3":
-              _element["after"](range[b("0x1b")] + href[b("0x1c")]());
+              _element["after"](range["DaXoU"] + href["toUpperCase"]());
               continue;
             case "4":
-              _element[b("0x18")]("<li>SHALL WE PLAY A GAME?");
+              _element["after"]("<li>SHALL WE PLAY A GAME?");
               continue;
           }
           break;
         }
       }
       break;
-    case range[b("0x26")]:
+    case range["ELqfN"]:
       if (g == 3) {
-        var callbackVals = range[b("0x27")][b("0x20")]("|");
+        var callbackVals = range["SurXj"]["split"]("|");
         /** @type {number} */
         var callbackCount = 0;
         for (; !![];) {
@@ -340,7 +403,7 @@ $(b("0x2"))["on"]("input", function() {
               range[b("0x29")]($, range[b("0x2a")])[b("0x1d")](range[b("0x2b")]);
               continue;
             case "2":
-              _element["after"](range[b("0x1b")] + href[b("0x1c")]());
+              _element["after"](range["DaXoU"] + href["toUpperCase"]());
               continue;
             case "3":
               range[b("0x2c")](setTimeout, function() {
@@ -348,7 +411,7 @@ $(b("0x2"))["on"]("input", function() {
               }, 3E3);
               continue;
             case "4":
-              _element[b("0x18")](range["TPmKD"]);
+              _element["after"](range["TPmKD"]);
               continue;
             case "5":
               g++;
@@ -360,7 +423,7 @@ $(b("0x2"))["on"]("input", function() {
       break;
     default:
       if (g == 0 && range[b("0x2f")](href[b("0x30")], 6) || range[b("0x31")](g, 1) && range[b("0x2f")](href["length"], 22) || range[b("0x32")](g, 2) && range[b("0x2f")](href[b("0x30")], 34) || g == 3 && range[b("0x33")](href["length"], 5)) {
-        _element[b("0x18")](b("0x34"));
+        _element["after"](b("0x34"));
         $el[b("0x1d")]("");
         range[b("0x2c")](setTimeout, function() {
           window[b("0x2d")][b("0x10")](range[b("0x35")]);
@@ -369,6 +432,7 @@ $(b("0x2"))["on"]("input", function() {
       break;
   }
 });
+
 setInterval(function() {
   var timeline_items = {
     "gkhsS" : b("0x5"),
